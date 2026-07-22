@@ -1,22 +1,35 @@
-const request = require("supertest");
-const app = require("../app");
+import dotenv from "dotenv";
+dotenv.config();
 
-describe("Authentication API", () => {
+import request from "supertest";
+import mongoose from "mongoose";
+import app from "../app.js";
+import connectDB from "../config/db.js";
 
-    test("POST /api/auth/register should return 201", async () => {
+beforeAll(async () => {
+  await connectDB();
+});
 
-        const response = await request(app)
-            .post("/api/auth/register")
-            .send({
-                name: "Sneha",
-                email: "sneha@gmail.com",
-                password: "123456"
-            });
+afterAll(async () => {
+  await mongoose.connection.close();
+});
 
-        expect(response.statusCode).toBe(201);
-         expect(response.body).toEqual({
-            message: "User registered successfully"
-        });
-    });
+describe("Auth API", () => {
+
+  test("Register a new user", async () => {
+
+    const response = await request(app)
+      .post("/api/auth/register")
+      .send({
+        name: "Test User",
+        email: `test${Date.now()}@gmail.com`,
+        password: "123456"
+      });
+
+    expect(response.statusCode).toBe(201);
+    expect(response.body.success).toBe(true);
+
+  });
 
 });
+
