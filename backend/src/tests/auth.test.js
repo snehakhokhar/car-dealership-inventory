@@ -14,7 +14,9 @@ describe("Authentication API", () => {
             });
 
         expect(response.statusCode).toBe(201);
-
+         expect(response.body).toEqual({
+            message: "User registered successfully"
+        });
     });
 
 });
