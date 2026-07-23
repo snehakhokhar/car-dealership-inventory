@@ -93,7 +93,7 @@ function Dashboard() {
                 className={`mt-4 w-full py-2 rounded-lg text-white ${
                   vehicle.quantity === 0
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-green-600 hover:bg-green-700"
+                    : "bg-blue-700 hover:bg-blue-600"
                 }`}
               >
                 {vehicle.quantity === 0 ? "Out of Stock" : "Purchase"}
