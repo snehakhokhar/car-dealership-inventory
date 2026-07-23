@@ -220,7 +220,7 @@ admin123
 
 ---
 
-## 👤 User Account
+##  User Account
 
 You can either register a new account using the Register page or use the demo account below.
 
@@ -238,7 +238,7 @@ test1784725163926@gmail.com
 
 ---
 
-## 🔒 Admin Setup
+##  Admin Setup
 
 Administrator accounts cannot be created through the registration page.
 
@@ -246,7 +246,7 @@ For security reasons, the admin account was created manually by assigning the us
 
 ---
 
-# 🔐 Authentication
+#  Authentication
 
 The application uses **JWT Authentication**.
 
@@ -258,7 +258,7 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-# 📌 REST API Endpoints
+#  REST API Endpoints
 
 ## Authentication
 
@@ -291,7 +291,7 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-# 👥 User Roles
+#  User Roles
 
 ## User
 
@@ -314,26 +314,59 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-# 📷 Application Screenshots
+## Screenshots
 
-Add screenshots before submission.
+### Home Page
 
-Suggested screenshots:
+<img width="1891" height="877" alt="HomePage" src="https://github.com/user-attachments/assets/89eb7c39-9d12-4235-98c9-57725b04b2de" />
 
-- Login Page
-- Register Page
-- User Dashboard
-- Search Vehicles
-- Purchase Vehicle
-- Admin Dashboard
-- Add Vehicle
-- Update Vehicle
-- Delete Vehicle
-- Restock Vehicle
 
 ---
 
-# 🧪 Testing
+### Login
+
+<img width="1716" height="922" alt="Login" src="https://github.com/user-attachments/assets/2c988bd0-e90c-424f-8d79-c173c5036c12" />
+
+
+---
+
+### Register
+
+<img width="1883" height="906" alt="Register" src="https://github.com/user-attachments/assets/3c2e8617-6b55-4333-a163-4292fbb93b1d" />
+
+
+---
+### Add-NewVehicle
+
+<img width="1851" height="717" alt="add-vehicle" src="https://github.com/user-attachments/assets/450df6e9-eefe-4107-a9cb-29e9c3f09208" />
+
+---
+
+### Admin Dashboard
+
+<img width="1453" height="914" alt="admin-dashboard" src="https://github.com/user-attachments/assets/a3be59eb-a908-4cca-9ae7-af16d77d86a6" />
+
+
+---
+
+### Update Vehicle
+
+<img width="1231" height="860" alt="UpadateVehicle" src="https://github.com/user-attachments/assets/8aa2058b-5581-4b27-a5af-142831af060e" />
+
+
+---
+
+### Search Feature
+
+<img width="1798" height="627" alt="Search" src="https://github.com/user-attachments/assets/7232b339-2723-4de4-bdae-65ffba06ff93" />
+
+
+---
+
+
+
+
+#  Testing
 
 ### Backend Testing
 
@@ -388,7 +421,7 @@ Verified functionality:
 
 ---
 
-# 🤖 My AI Usage
+#  My AI Usage
 
 AI tools were used responsibly to assist in the development process while ensuring that all code was understood, reviewed, and tested before being incorporated into the project.
 
@@ -414,13 +447,13 @@ Using AI accelerated the development process by helping identify bugs, explain c
 
 ---
 
-# 📄 PROMPTS.md
+#  PROMPTS.md
 
 A separate **PROMPTS.md** file is included in the repository containing the AI prompts used during the development process, as required by the assignment.
 
 ---
 
-# 🚀 Future Enhancements
+#  Future Enhancements
 
 - Vehicle Image Upload
 - Price Sorting
@@ -435,7 +468,7 @@ A separate **PROMPTS.md** file is included in the repository containing the AI p
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Sneha Khokhar**
 
@@ -449,6 +482,6 @@ www.linkedin.com/in/sneha-khokhar
 
 ---
 
-# 📄 License
+#  License
 
 This project was developed for educational purposes as part of the **Incubyte Software Craftsperson Assignment**.
