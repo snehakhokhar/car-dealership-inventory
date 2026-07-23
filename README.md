@@ -145,7 +145,7 @@ car-dealership-inventory/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/car-dealership-inventory.git
+git clone https://github.com/snehakhokhar/car-dealership-inventory.git
 
 cd car-dealership-inventory
 ```
@@ -441,11 +441,11 @@ A separate **PROMPTS.md** file is included in the repository containing the AI p
 
 **GitHub**
 
-https://github.com/YOUR_GITHUB_USERNAME
+https://github.com/snehakhokhar/car-dealership-inventory.git
 
 **LinkedIn**
 
-https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE
+www.linkedin.com/in/sneha-khokhar
 
 ---
 
