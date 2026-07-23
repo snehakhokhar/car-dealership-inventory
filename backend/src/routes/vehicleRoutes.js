@@ -9,19 +9,20 @@ import {
   updateVehicle,
   deleteVehicle,
   purchaseVehicle,
-  restockVehicle
+  restockVehicle,
+  getVehicleById
 } from "../controllers/vehicleController.js";
 
 const router = express.Router();
 
 // Vehicle Routes
-router.post("/",protect, addVehicle);
+router.post("/",protect,adminOnly, addVehicle);
 
 router.get("/", getVehicles);
 
 router.get("/search", searchVehicles);
 
-router.put("/:id",protect, updateVehicle);
+router.put("/:id",protect, adminOnly,updateVehicle);
 
 router.delete("/:id",  protect, adminOnly,deleteVehicle);
 
@@ -29,5 +30,6 @@ router.delete("/:id",  protect, adminOnly,deleteVehicle);
 router.post("/:id/purchase",protect, purchaseVehicle);
 
 router.post("/:id/restock", protect, adminOnly, restockVehicle);
+router.get("/:id",getVehicleById);
 
 export default router;
